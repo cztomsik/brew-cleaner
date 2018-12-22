@@ -1,0 +1,28 @@
+{
+  "name": "brew-cleaner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node ./src/main.tsx",
+    "dev": "npx ts-node -r ./hmr.js -T ./src/main.tsx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^16.7.18",
+    "node-webrender": "^0.1.5",
+    "react": "^16.7.0-alpha.2",
+    "react-reconciler": "^0.18.0-alpha.2",
+    "yoga-layout": "^1.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "hot-module-replacement": "^3.0.2",
+    "react-devtools-core": "^3.4.3",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2",
+    "ws": "^6.1.2"
+  }
+}
