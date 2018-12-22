@@ -4,6 +4,7 @@
 Sample react application for [node-webrender](https://github.com/cztomsik/node-webrender) so that you can see what's supported and how to setup your environment if you want to play with this too.
 
 ## Notes
+- it is currently calling `execSync()` so the pause you experience is actually ruby runtime so maybe your first excercise might to make it async and add loading state :-)
 - scrolling is choppy but it's actually not a performance issue, there's currently no threading so event-loop has to be polled for events (every 1/30 of a second)
 - the library is far from being useful but it's [getting better every day](https://github.com/cztomsik/node-webrender/issues)
 
